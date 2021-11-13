@@ -1,0 +1,33 @@
+.flex-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 500 px;
+}
+
+.brown {
+  background-color: #916339;
+}
+
+.gray {
+  background-color: #fefefe;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: ox#916339;
+}
+
+h1,
+h3 {
+  color: #916339;
+}
